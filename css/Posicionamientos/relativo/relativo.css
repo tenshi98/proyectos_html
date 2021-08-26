@@ -1,0 +1,36 @@
+
+/* PROPIEDADES PARA POSICIONAR
+
+	top: arriba, se posiciona desde arriba hacia abajo;
+	left: izquierda, se posiciona de izquierda a derecha;
+	right: derecha, se posiciona de derecha a izquierda;
+	bottom: abajo, se posiciona de abajo hacia arriba;
+
+*/
+
+.imgRelativa{ 
+	width: 200px;
+	height: 200px;
+	background:#000;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	right: 200px;
+	bottom:100px;
+}
+.imgNormal{
+	width: 200px;
+	height: 200px;
+	background:teal;
+	display: inline-block;
+	margin: 0;
+	
+}
+
+/*
+ El posicionamiento relativo se mueve
+ desde su posición original, no desde
+ el borde superior izquierdo.Este
+ posicionamiento no afecta a los otros
+ elementos.
+ */

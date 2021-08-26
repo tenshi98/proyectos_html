@@ -1,0 +1,7 @@
+.img_fija{
+	position: fixed;
+	right: 50px;
+	bottom:20px;
+	width: 70px;
+	height: 70px;
+}

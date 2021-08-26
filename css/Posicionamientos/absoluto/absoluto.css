@@ -1,0 +1,33 @@
+
+.padre{
+	width: 1000px;
+	height: 1000px;
+	position: relative;
+}
+
+.imgAbsoluta{ 
+	width: 200px;
+	height: 200px;
+	background:#000;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.imgNormal{
+	width: 200px;
+	height: 200px;
+	background:teal;
+	display: inline-block;
+	margin: 0;
+}
+
+/*
+ El posicionamiento absoluto se mueve
+ desde el borde superior del navegador
+ a menos que se le indique a su contenedor
+ padre un posicionamiento relativo.
+ Este posicionamiento afecta a los demás
+ elementos.
+ */
