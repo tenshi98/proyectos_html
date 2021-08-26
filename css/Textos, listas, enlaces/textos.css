@@ -1,0 +1,46 @@
+div{
+	/*Recibe left, right, center, justify
+	y define la alineación del contenido */
+	text-align: justify;
+	width: 100%;
+	
+
+}
+p{
+	/*Controla la altura ocupada por cada linea de texto*/
+	line-height: 32px;
+
+	/*Sirve para decorar texto
+	recibe none, underline, overline, line-through*/
+	text-decoration: none;
+
+	/*Transforma el texto y recibe: capitalize, uppercase
+		lowercase;*/
+
+	text-transform: lowercase;
+
+	/*Define el tamaño del texto*/
+	font-size:16px;
+
+	/* Define el color de un texto */
+	color:rgba(0,0,0,1);
+
+	/* Dá sombra a un texto
+		recibe la posición horizontal, posición vertical, desvanecido*/
+	text-shadow: 4px 4px 15px rgba(0,0,0,.5);
+}
+
+/*LISTAS*/
+	/* Establece el tipo de viñeta mostrada en la lista
+		recibe none,disc,circle, square, decimal, una imagen entre otros */
+	ul{
+		list-style: decimal;
+		list-style:url('urlimagen');
+	}
+
+/* ENLACES */
+
+	a{
+		text-decoration: none;
+		color:blue;
+	}
