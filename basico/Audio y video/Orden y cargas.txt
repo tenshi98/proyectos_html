@@ -1,0 +1,5 @@
+Apple
+Los dispositivos no encuentran un mp4 no reproducen el video
+El orden de reproducción es MP4, webm, y ogg.
+
+Los audios van en un orden de MP3, wav y ogg.

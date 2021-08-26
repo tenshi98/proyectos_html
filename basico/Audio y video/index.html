@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Audio y video</title>
+	</head>
+	<body>
+		<audio src="west.mp3" controls autoplay></audio>
+		<br>
+		<audio controls>
+			<source src="west.mp3" type="audio/mpeg">
+			<source src="west.wav" type="audio/wav">
+			<source src="west.ogg" type="audio/ogg">
+		</audio>
+		<br>
+		<video width="600px" src="agua.mp4" controls preload="none"></video>
+		<br>
+		<video width="600px" controls preload="auto" poster="img/img-tabla.jpg">
+			<source src="agua.mp4" type="video/mp4">
+			<source src="agua.webm" type="video/webm">
+			<source src="agua.ogg" type="video/ogg">  
+		</video>
+	</body>
+</html>
+
+<!--
+
+Los dispositivos de la manzanita si no encuentran un mp4 no reproducen el video.
+El orden de reproducción de video es MP4, webm, y ogv.
+
+Los audios van en un orden de MP3, wav y ogg.
+
+Atributo preload: auto, none
+ -->
