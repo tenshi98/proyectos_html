@@ -1,0 +1,54 @@
+/* Las pseudoclases estan precedidas
+de : y sirven para darle estilos
+a algún elemento cuando tiene un estado;  */
+
+
+.activado:active{
+	color:red;
+	background: #000;
+}
+
+a.linkNoVisitado:link{
+	color:green;
+}
+a.visitada:visited{
+	color: coral;
+	
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
+.caja:hover{
+	background:black;
+	color:#fff;
+}
+input.focus{
+	border:2px solid gray;
+}
+input.focus:focus{
+	border: 2px solid cyan;
+}
+
+/*Existen otras pseudo clases como :first-child
+ que selecciona el primer hijo de un contendor*/
+
+
+p:first-child {
+  background-color: green;
+}
+p:last-child{
+	background:pink;
+}	
+
+p.linea::first-line{
+color: red;
+text-transform: uppercase;
+}
+p.letra::first-letter{
+	font-size: 48px;
+	color: red;
+	padding: 30px;
+}
