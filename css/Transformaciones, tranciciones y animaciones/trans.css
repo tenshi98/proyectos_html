@@ -1,0 +1,46 @@
+.caja{
+	width: 200px;
+	height: 200px;
+	background: coral;
+}
+
+/* Propiedad transform */
+.caja:hover{
+	transform: scale(1.3);
+	/* transform:rotate(70deg); */
+	/* transform:translate(0, 100px); */
+}
+
+/* Simlador de transformaciones
+https://html-css-js.com/css/generator/transform/
+ */
+/* Propiedad transition */
+.caja1{
+	width: 200px;
+	height: 200px;
+	background: cyan;
+	transition: all 2s ease-in;
+}
+.caja1:hover{
+	transform:scale(1.3);
+	background: blue;
+	transform:translate(100px);
+}
+
+/* ease | ease-in 1 linear | ease-out 
+https://www.bufa.es/css3-transitions/
+*/
+/* Animaciones */
+@keyframes cambioColor{
+ 0%{background:red;transform:scale(1.1);}
+ 50%{background:green;transform:scale(1.3);transform: translate(50px);}
+ 100%{background:purple;transform:scale(1.7);}		
+}
+.caja2{
+	width: 200px;
+	height: 200px;
+	background: maroon;
+	animation: cambioColor 5s infinite;
+}
+
+/* https://coolors.co/3066be-119da4-6d9dc5-80ded9-aeecef */
