@@ -1,0 +1,39 @@
+.caja{
+	width: 300px;
+	height: 300px;
+	background: pink;
+  box-shadow: 20px 30px 15px #000;
+}
+
+/* El primer valor es la distancia
+	horizontal
+   El segundo valor es la distancia
+   vertical
+   El tercer valor es el difuminado
+   El cuarto valor es el color
+   El quinto valor puede ser inset
+   para a sombra interior */
+
+
+
+.caja{
+	border: 5px ridge blue;
+
+}
+/* Primer valor es el tamaño
+   El segundo es el tipo de borde
+   El tercero el color
+   Existen los siguientes tipos de bordes
+
+    dotted 
+    dashed 
+    solid 
+    double 
+    groove 
+    ridge 
+    inset 
+    outset */
+
+.caja{
+		border-radius: 50%;
+}
