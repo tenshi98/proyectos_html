@@ -1,0 +1,14 @@
+a{	
+	display:inline-block;
+	width: 1000px;
+}
+
+h1{
+	display:inline;
+}
+img{
+	display:block;
+}
+p{
+	display:inline-block;
+}
