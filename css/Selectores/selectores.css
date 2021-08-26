@@ -1,0 +1,14 @@
+#idPrincipal{
+	/* Selector de id: Se aplica a todos los elementos de la página
+		cuyo atributo id coincida con el de la página; */
+
+	/* declaración */
+	margin:10px;
+}
+
+.clase{
+	/* Selector de clase: Se aplica a todos los elementos de la página
+		cuyo atributo class coincida con el de la página; */
+	width: 900px;
+	/* declaración */
+}
